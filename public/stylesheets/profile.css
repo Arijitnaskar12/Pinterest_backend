@@ -1,0 +1,35 @@
+.flaticon{
+    color:black;
+}
+.iconspan{
+    width:30px;
+    height:30px;
+    position: absolute;
+    top:145px;
+    left:780px;
+    border-radius: 50%;
+    background-color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav{
+    width:100%;
+    height:5vh;
+    position: fixed;
+    top:0;
+    left:0;
+    background-color: black;
+    color:white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+nav div{
+    display: flex;
+    gap:20px;
+    margin:10px;
+}
+nav a:hover{
+    color:aqua;
+}

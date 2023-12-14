@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/stylesheets/profile.css">
+</head>
+<body>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <div class="continer">
+        <nav>
+            <h1>Pinterest.</h1>
+            <div>
+              <a href="/profile">Profile</a>
+              <a href="/feed">Feed</a>
+              <a  href="/logout" class="w-32 flex justify-center items-center bg-red-800 rounded-2xl">Logout</a>
+            </div>
+          </nav>
+
+              <div class="w-50 h-100 bg-rose-600 mt-10 flex justify-center flex-row">
+                  <form action="/upload" method="post" enctype="multipart/form-data" class="flex flex-col gap-10 mt-10 ">
+                    <h2 class="mt-8 text-center font-bold text-6xl">Create a new Post</h2>
+                    <input type="file" name="file"/>
+                    <textarea name="filecaption" class="border-2" placeholder="Give some caption"></textarea>
+                    <button type="submit" class="rounded-3xl border-2 border-solid border-red-900 px-8 py-2 font-semibold uppercase tracking-wide text-black-900 hover:bg-rose-800 hover:text-white">Upload</button>
+                  </form>
+                </div>
+    </div>
+   
+</body>
+</html>
